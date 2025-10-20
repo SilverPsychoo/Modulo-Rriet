@@ -1,0 +1,39 @@
+site_name: Manual de Códigos rriet
+site_url: https://github.com/SilverPsychoo/Modulo-Rriet
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: blue
+      accent: deep-orange
+    - scheme: slate
+      primary: blue
+      accent: deep-orange
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+nav:
+  - Inicio: index.md
+  - Sensores:
+      - Sensor Ultrasonico: sensores/ultrasonico.md
+      - Sensor Infrarrojo: sensores/infrarrojo.md
+      - Sensor de Temperatura: sensores/temperatura.md
+  - Actuadores:
+      - Servo Motor: actuadores/servo.md
+      - Motor DC: actuadores/motor_dc.md
+      - Relevador (Relay): actuadores/relay.md
+  - Displays:
+      - LCD 16x2: displays/lcd.md
+      - OLED: displays/oled.md
+      - Matriz LED: displays/matriz_led.md
+  - Otros:
+      - Módulo Bluetooth: otros/bluetooth.md
+      - Joystick: otros/joystick.md
+  - Contacto: contacto.md

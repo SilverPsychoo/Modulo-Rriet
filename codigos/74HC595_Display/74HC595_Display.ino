@@ -1,0 +1,46 @@
+#include <ShiftRegister74HC595.h>
+
+int dataPIN = 0;
+int latchPIN = 2;
+int clockPIN = 1;
+
+ShiftRegister74HC595<2> sr(dataPIN, clockPIN, latchPIN);
+
+int digit1, digit2;
+uint8_t digits[] = { 
+  B11000000,
+  B11111001,
+  B10100100,
+  B10110000,
+  B10011001,
+  B10010010,
+  B10000010,
+  B11111000,
+  B10000000,
+  B10010000
+};
+
+void setup() {
+}
+
+void loop() {
+  showNumber(69);
+  delay(2000);
+  for(int i=0; i<=99; i++) {
+    showNumber(i);
+    delay(350);
+  }
+  delay(2000);
+  for(int i=99; i>=0; i--) {
+    showNumber(i);
+    delay(350);
+  }
+  delay(2000);   
+}
+
+void showNumber(int num) {
+  digit1 = num % 10;
+  digit2 = (num / 10) % 10;
+  uint8_t numberToPrint[] = {digits[digit2], digits[digit1]};
+  sr.setAll(numberToPrint);
+}
