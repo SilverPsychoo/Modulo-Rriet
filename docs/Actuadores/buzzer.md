@@ -1,3 +1,8 @@
+# Buzzer
+
+## Codigo:
+
+```cpp
 int buzzer = 8;
 
 void setup() {
@@ -14,3 +19,4 @@ void loop() {
   noTone(buzzer);
   delay(500);
 }
+```

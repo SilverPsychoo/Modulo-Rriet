@@ -1,3 +1,8 @@
+# Relevador (Relay)
+
+## Codigo:
+
+```cpp
 int rele = 7;
 
 void setup() {
@@ -11,3 +16,4 @@ void loop() {
   digitalWrite(rele, HIGH);
   delay(1000);
 }
+```

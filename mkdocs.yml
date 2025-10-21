@@ -1,39 +1,51 @@
-site_name: Manual de Códigos rriet
+site_name: Manual de Códigos Modulo Rriet
 site_url: https://github.com/SilverPsychoo/Modulo-Rriet
+site_description: "Manual de códigos de Arduino del módulo Rriet, con ejemplos listos para copiar y pegar."
+site_author: "Robotec"
+
 theme:
   name: material
-  language: es
-  features:
-    - navigation.instant
-    - navigation.expand
-    - navigation.sections
-    - content.code.copy
-    - search.highlight
   palette:
-    - scheme: default
-      primary: blue
-      accent: deep-orange
-    - scheme: slate
-      primary: blue
-      accent: deep-orange
-      toggle:
-        icon: material/weather-night
-        name: Modo oscuro
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo: 'img/logo.png'
+  favicon: 'img/favicon.ico'
+  features:
+    - navigation.tabs
+    - navigation.top
+  copyright: "© 2025 Robotec. Todos los derechos reservados."
+
 nav:
   - Inicio: index.md
   - Sensores:
-      - Sensor Ultrasonico: sensores/ultrasonico.md
-      - Sensor Infrarrojo: sensores/infrarrojo.md
-      - Sensor de Temperatura: sensores/temperatura.md
+      - Sensor Ultrasonico HC-SR04: Sensores/ultrasonico.md
+      - Sensor IR: Sensores/infrarrojo.md
+      - Sensor de Temperatura (DHT11): Sensores/temperatura.md
+      - Sensor de Humedad en la Tierra: Sensores/humedadtierra.md
+      - Sensor de Humedad: Sensores/humedad.md
+      - Sensor de Movimiento PIR: Sensores/movimiento.md
+      - Sensor de Flama: Sensores/flama.md
+      - Sensor de Gas: Sensores/gas.md
   - Actuadores:
-      - Servo Motor: actuadores/servo.md
-      - Motor DC: actuadores/motor_dc.md
-      - Relevador (Relay): actuadores/relay.md
+      - Servo Motor: Actuadores/servo.md
+      - Motor a pasos: Actuadores/motorpasos.md
+      - LED RGB: Actuadores/rgb.md
+      - Relevador (Relay): Actuadores/rele.md
+      - Laser (HW-493): Actuadores/laser.md
+      - Buzzer: Actuadores/buzzer.md
   - Displays:
-      - LCD 16x2: displays/lcd.md
-      - OLED: displays/oled.md
-      - Matriz LED: displays/matriz_led.md
-  - Otros:
-      - Módulo Bluetooth: otros/bluetooth.md
-      - Joystick: otros/joystick.md
-  - Contacto: contacto.md
+      - LCD: Pantalla/lcd.md
+      - Matriz LED: Pantalla/matriz.md
+      - Display 7 segmentos (74HC595): Pantalla/segmentos.md
+  - Otros módulos:
+      - Módulo Bluetooth HC-05: Otros/bluetooth.md
+      - Potenciometro: Otros/pote.md
+      - Joystick Analógico: Otros/joystick.md
+
+plugins:
+  - search
+
+markdown_ex_

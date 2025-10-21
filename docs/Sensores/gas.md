@@ -1,3 +1,8 @@
+# Sensor de Gas Metano MQ4
+
+## Codigo:
+
+```cpp
 int pinAnalog = A0;
 int pinDigital = 7;
 
@@ -22,3 +27,4 @@ void loop() {
   Serial.println();
   delay(1000);
 }
+```

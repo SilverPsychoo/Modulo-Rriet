@@ -1,3 +1,8 @@
+# Potenciometro
+
+## Codigo:
+
+```cpp
 #define POT A0
 
 void setup() {
@@ -14,3 +19,4 @@ void loop() {
 
   delay(200);
 }
+```

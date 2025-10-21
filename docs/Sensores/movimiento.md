@@ -1,3 +1,8 @@
+# Sensor de Movimiento PIR
+
+## Codigo:
+
+```cpp
 int pinPIR = 7;
 int estado = 0;
 
@@ -17,3 +22,4 @@ void loop() {
 
   delay(500);
 }
+```

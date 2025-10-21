@@ -1,3 +1,8 @@
+# Sensor Ultrasonico HC-SR04
+
+## Codigo:
+
+```cpp
 #define TRIG 9
 #define ECHO 10
 
@@ -27,3 +32,4 @@ void loop() {
 
   delay(500);
 }
+```
