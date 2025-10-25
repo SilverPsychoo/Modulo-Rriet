@@ -11,8 +11,8 @@ theme:
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  logo: 'img/logo.png'
-  favicon: 'img/favicon.ico'
+  logo: 'img/Robotec.PNG'
+  favicon: 'img/Robotec.ico'
   features:
     - navigation.tabs
     - navigation.top
@@ -47,5 +47,3 @@ nav:
 
 plugins:
   - search
-
-markdown_ex_
