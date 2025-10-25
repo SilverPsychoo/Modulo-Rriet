@@ -1,6 +1,6 @@
-int ejeX = A0;
-int ejeY = A1;
-int boton = 7;
+int ejeX = A14;
+int ejeY = A15;
+int boton = 27;
 
 void setup() {
   Serial.begin(9600);

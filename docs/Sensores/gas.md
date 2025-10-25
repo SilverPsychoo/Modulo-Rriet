@@ -4,7 +4,7 @@
 
 ```cpp
 int pinAnalog = A0;
-int pinDigital = 7;
+int pinDigital = 3;
 
 void setup() {
   Serial.begin(9600);

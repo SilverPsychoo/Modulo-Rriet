@@ -19,7 +19,7 @@ Para controlar esta matriz necesitas la librería **LedControl**.
 ```cpp
 #include <LedControl.h>
 
-LedControl lc = LedControl(11, 13, 10, 1);
+LedControl lc = LedControl(12, 11, 10, 1);
 
 byte smiley[8] = {
   B00111100,

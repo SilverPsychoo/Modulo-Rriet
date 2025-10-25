@@ -16,6 +16,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
+    - content.code.copy
   copyright: "© 2025 Robotec. Todos los derechos reservados."
 
 nav:

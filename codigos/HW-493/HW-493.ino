@@ -1,4 +1,4 @@
-int laserPin = 8;
+int laserPin = 2;
 
 void setup() {
   pinMode(laserPin, OUTPUT);

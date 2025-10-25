@@ -5,7 +5,7 @@ Ten cuidado con este actuador, usalo de formula segura, sobretodo **NO LO APUNTE
 ## Codigo:
 
 ```cpp
-int laserPin = 8;
+int laserPin = 2;
 
 void setup() {
   pinMode(laserPin, OUTPUT);

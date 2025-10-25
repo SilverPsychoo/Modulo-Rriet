@@ -1,7 +1,7 @@
 #include <Stepper.h>
 #define PASOS_POR_VUELTA 2048
 
-Stepper motor(PASOS_POR_VUELTA, 8, 10, 9, 11);
+Stepper motor(PASOS_POR_VUELTA, 40, 41, 42, 43);
 
 void setup() {
   motor.setSpeed(15);

@@ -1,8 +1,8 @@
 #include <ShiftRegister74HC595.h>
 
-int dataPIN = 0;
-int latchPIN = 2;
-int clockPIN = 1;
+int dataPIN = 12;
+int latchPIN = 11;
+int clockPIN = 10;
 
 ShiftRegister74HC595<2> sr(dataPIN, clockPIN, latchPIN);
 

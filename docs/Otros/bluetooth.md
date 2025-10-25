@@ -23,7 +23,7 @@ Con esta app puedes:
 ```cpp
 #include <SoftwareSerial.h>
 
-SoftwareSerial BT(10, 11); 
+SoftwareSerial BT(18, 19); 
 
 void setup() {
   Serial.begin(9600);

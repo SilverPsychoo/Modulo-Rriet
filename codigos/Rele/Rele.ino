@@ -1,4 +1,4 @@
-int rele = 7;
+int rele = 3;
 
 void setup() {
   pinMode(rele, OUTPUT);

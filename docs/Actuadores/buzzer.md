@@ -3,7 +3,7 @@
 ## Codigo:
 
 ```cpp
-int buzzer = 8;
+int buzzer = 7;
 
 void setup() {
   pinMode(buzzer, OUTPUT);

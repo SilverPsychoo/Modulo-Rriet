@@ -4,7 +4,7 @@ Servo miServo;
 int pos = 0;   
 
 void setup() {
-  miServo.attach(9); 
+  miServo.attach(7); 
 }
 
 void loop() {
