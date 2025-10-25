@@ -19,7 +19,7 @@
         <link rel="next" href="Sensores/ultrasonico/">
       
       
-      <link rel="icon" href="img/favicon.ico">
+      <link rel="icon" href="img/Robotec.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
     
     
@@ -90,7 +90,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="Manual de Códigos Modulo Rriet" class="md-header__button md-logo" aria-label="Manual de Códigos Modulo Rriet" data-md-component="logo">
       
-  <img src="img/logo.png" alt="logo">
+  <img src="img/Robotec.PNG" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -299,7 +299,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="." title="Manual de Códigos Modulo Rriet" class="md-nav__button md-logo" aria-label="Manual de Códigos Modulo Rriet" data-md-component="logo">
       
-  <img src="img/logo.png" alt="logo">
+  <img src="img/Robotec.PNG" alt="logo">
 
     </a>
     Manual de Códigos Modulo Rriet
@@ -1141,41 +1141,108 @@
 <p>Bienvenido al <strong>Manual de Códigos del modulo Rriet</strong>.<br />
 Selecciona un componente para ver su código listo para copiar y pegar.  </p>
 <hr />
+<style>
+.componente {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #3F51B5;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 6px 0;
+}
+
+.componente img {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -10px;
+  left: 110%;
+  width: 160px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 10;
+}
+
+.componente:hover img {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+
+<hr />
 <h2 id="sensores">Sensores</h2>
 <ul>
-<li><a href="Sensores/ultrasonico/">Sensor Ultrasonico HC-SR04</a></li>
-<li><a href="Sensores/infrarrojo/">Sensor IR</a></li>
-<li><a href="Sensores/temperatura/">Sensor de Temperatura (DHT11)</a></li>
-<li><a href="Sensores/humedadtierra/">Sensor de Humedad en la Tierra)</a></li>
-<li><a href="Sensores/humedad/">Sensor de Humedad)</a></li>
-<li><a href="Sensores/movimiento/">Sensor de Movimiento PIR)</a></li>
-<li><a href="Sensores/flama/">Sensor de Flama)</a></li>
-<li><a href="Sensores/gas/">Sensor de Gas)</a></li>
+<li>
+<p><a href="Sensores/ultrasonico.md" class="componente">Sensor Ultrasonico HC-SR04<img src="img/ultrasonico.png" alt="Ultrasonico"></a><br>  </p>
+</li>
+<li>
+<p><a href="Sensores/infrarrojo.md" class="componente">Sensor IR<img src="img/IR.png" alt="InfraRojo"></a><br> </p>
+</li>
+<li>
+<p><a href="Sensores/temperatura.md" class="componente">Sensor de Temperatura (DHT11)
+  <img src="img/temperatura.png" alt="DHT11"></a><br></p>
+</li>
+<li>
+<p><a href="Sensores/humedadtierra.md" class="componente">Sensor de Humedad en la Tierra
+  <img src="img/humedadtierra.png" alt="Humedad Tierra"></a><br></p>
+</li>
+<li>
+<p><a href="Sensores/humedad.md" class="componente">Sensor de Lluvia
+  <img src="img/humedad.png" alt="Sensor de Lluvia"></a><br></p>
+</li>
+<li>
+<p><a href="Sensores/movimiento.md" class="componente">Sensor de Movimiento PIR
+  <img src="img/movimiento.png" alt="PIR"></a><br></p>
+</li>
+<li>
+<p><a href="Sensores/flama.md" class="componente">Sensor de Flama
+  <img src="img/flama.png" alt="Sensor Flama"></a><br></p>
+</li>
+<li>
+<p><a href="Sensores/gas.md" class="componente">Sensor de Gas
+  <img src="img/gas.png" alt="Sensor Gas"></a><br></p>
+</li>
 </ul>
 <hr />
 <h2 id="actuadores">Actuadores</h2>
 <ul>
-<li><a href="Actuadores/servo/">Servo Motor</a></li>
-<li><a href="Actuadores/motorpasos/">Motor a pasos</a></li>
-<li><a href="Actuadores/rgb/">LED RGB</a></li>
-<li><a href="Actuadores/rele/">Relevador (Relay)</a></li>
-<li><a href="Actuadores/laser/">Laser (HW-493)</a></li>
-<li><a href="Actuadores/buzzer/">Buzzer</a></li>
+<li>
+<p><a href="Actuadores/servo.md" class="componente">Servo Motor<img src="img/servo.png" alt="Servo"></a><br></p>
+</li>
+<li>
+<p><a href="Actuadores/motorpasos.md" class="componente">Motor a pasos<img src="img/motorpasos.png" alt="Motor a pasos"></a><br></p>
+</li>
+<li>
+<p><a href="Actuadores/rgb.md" class="componente">LED RGB<img src="img/rgb.png" alt="LED RGB"></a><br>  </p>
+</li>
+<li>
+<p><a href="Actuadores/rele.md" class="componente">Relevador (Relay)<img src="img/rele.png" alt="Rele"></a><br>  </p>
+</li>
+<li>
+<p><a href="Actuadores/laser.md" class="componente">Laser (HW-493)<img src="img/laser.png" alt="Laser"></a><br>  </p>
+</li>
+<li>
+<p><a href="Actuadores/buzzer.md" class="componente">Buzzer<img src="img/buzzer.png" alt="Buzzer"></a><br>  </p>
+</li>
 </ul>
 <hr />
 <h2 id="displays">Displays</h2>
-<ul>
-<li><a href="Pantalla/lcd/">LCD</a></li>
-<li><a href="Pantalla/matriz/">Matriz LED</a></li>
-<li><a href="Pantalla/segmentos/">Display 7 segmentos (74HC595)</a></li>
-</ul>
+<p><a href="Pantalla/lcd.md" class="componente">LCD
+  <img src="img/lcd.png" alt="LCD"></a><br></p>
+<p><a href="Pantalla/matriz.md" class="componente">Matriz LED
+  <img src="img/matriz.png" alt="Matriz LED"></a><br></p>
+<p><a href="Pantalla/segmentos.md" class="componente">Display 7 segmentos (74HC595)
+  <img src="img/segmentos.png" alt="7 Segmentos"></a><br></p>
 <hr />
 <h2 id="otros-modulos">Otros módulos</h2>
-<ul>
-<li><a href="Otros/bluetooth/">Módulo Bluetooth HC-05</a></li>
-<li><a href="Otros/pote/">Potenciometro</a></li>
-<li><a href="Otros/joystick/">Joystick Analógico</a></li>
-</ul>
+<p><a href="Otros/bluetooth.md" class="componente">Módulo Bluetooth HC-05
+  <img src="img/bluetooth.png" alt="Bluetooth HC-05"></a><br></p>
+<p><a href="Otros/pote.md" class="componente">Potenciómetro
+  <img src="img/pote.png" alt="Potenciómetro"></a><br></p>
+<p><a href="Otros/joystick.md" class="componente">Joystick Analógico
+  <img src="img/joystick.png" alt="Joystick"></a><br></p>
 
 
 
